@@ -1,0 +1,25 @@
+---
+title: "Transformación de datos con dplyr"
+author: "Daniel E. Chan Espinoza"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignette Title}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+La visualización de nuestros datos es un paso crucial para generar información, pero a veces es raro tener los datos en la forma correcta. A menudo necesitamos crear nuevas variables, re ordenarlas, o generar resúmenes (Grolemund & Wickham, 2017). 
+
+El paquete dplyr fue desarrollado por Hadley Wickham de RStudio, proporciona una "gramática" (particularmente verbos) para la manipulación y operaciones con data frames. Con esta gramática podemos comunicar mediante nuestro código que es lo que estamos haciendo en los data frames a otras personas.
+
+![logo](~/Documents/Learn_R/Manipulando-datos/logo.png)
+
+
